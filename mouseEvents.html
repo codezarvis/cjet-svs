@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+
+
+#mydiv {
+    background-color: gray;
+    border: 2px solid black;
+    height: 229px;
+    left: 399px;
+    position: absolute;
+    top: 148px;
+    width: 270px;
+
+
+}
+
+</style>
+<script type="text/javascript">
+function changeColor() {
+			
+		var mydiv = document.getElementById("mydiv");
+		mydiv.style.color = "white" ;
+		
+	
+}
+function resetcolor() {
+	var mydiv = document.getElementById("mydiv");
+	mydiv.style.color = "black" ;
+}
+</script>
+</head>
+<body>
+	<div id = "mydiv" onmouseover = "changeColor();" onmouseout = "resetcolor();">
+	<p align = "center" ><font size = "35"> Hello Friends! </font></p>
+	</div>
+</body>
+
+</html>
