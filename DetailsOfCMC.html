@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Details Of CMC</title>
+<style type="text/css">
+
+#myDiv {
+	background-color: #E3E30F;
+	border: 2px solid blue;
+    height: 50px;
+    left: 310px;
+    position: absolute;
+    top: 68px;
+    width: 690px;
+}
+a {
+	font-size: 30px;
+	color: blue;
+}
+#homeDiv {
+	background-color: #7FFF55;
+	border: 2px solid green;
+    height: 160px;
+    left: 310px;
+    position: absolute;
+    top: 122px;
+    width: 227px;
+    display: none;	
+}
+
+#AboutUSDiv {
+	background-color: cyan;
+	border: 2px solid blue;
+    height: 160px;
+    left: 541px;
+    position: absolute;
+    top: 122px;
+    width: 227px;
+    display: none;
+}
+
+#ContactUsDiv {
+	background-color: #FFAAFF;
+	border: 2px solid #FF00AA;
+    height: 160px;
+    left: 772px;
+    position: absolute;
+    top: 122px;
+    width: 228px;
+    display: none;
+}
+</style>
+<script type="text/javascript">
+
+function showhomeDiv(){
+	//alert("ok");
+	var homeDiv = document.getElementById("homeDiv");
+	homeDiv.style.display = 'block';
+}
+
+function hidehomeDiv(){
+	
+	var homeDiv = document.getElementById("homeDiv");
+	
+	if(homeDiv.style.display = 'block'){
+		homeDiv.style.display = 'none';
+	}else{
+		homeDiv.style.display = 'block';
+	}
+}
+
+function showAboutUSDiv(){
+	
+	var AboutUSDiv = document.getElementById('AboutUSDiv');
+	
+	AboutUSDiv.style.display = 'block'; 
+}
+
+function hideAboutUSDiv(){
+	var AboutUSDiv = document.getElementById('AboutUSDiv');
+	
+	if(AboutUSDiv.style.display = 'block'){
+		AboutUSDiv.style.display = 'none';
+	}else{
+		AboutUSDiv.style.display = 'block';
+	}
+}
+
+function showContactUsDiv(){
+	
+	var ContactUsDiv = document.getElementById('ContactUsDiv');
+	
+	ContactUsDiv.style.display = 'block';
+}
+
+function hideContactUsDiv(){
+	
+	var ContactUsDiv = document.getElementById('ContactUsDiv');
+	
+	if(ContactUsDiv.style.display = 'block'){
+		ContactUsDiv.style.display = 'none';	
+	}else{ContactUsDiv.style.display = 'block'
+	}
+}
+
+
+</script>
+</head>
+<body>
+<div id = "myDiv">
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href = "#" onmouseover = "showhomeDiv();" onmouseout = "hidehomeDiv();">Home</a>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href = "#" onmouseover = "showAboutUSDiv();" onmouseout = "hideAboutUSDiv();">About Us</a>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href = "#" onmouseover = "showContactUsDiv();" onmouseout = "hideContactUsDiv();">Contact Us</a>
+</div>
+
+
+<div id = 'homeDiv'>
+	<ul>
+		<li><font color = 'blue' size = '5'>Departments</font></li>
+		<br/>
+		<li><font color = 'blue' size = '5'>Employees</font></li>
+		<br/>
+		<li><font color = 'blue' size = '5'>Location</font></li>
+		
+	</ul>
+</div>
+
+
+<div id = 'AboutUSDiv'>
+	<ul>
+		<li><font color = 'blue'  size = '5'>C programming</font></li>
+		<br/>
+		<li><font color = 'blue'  size = '5'>Complete Java</font></li>
+		<br/>
+		<li><font color = 'blue'  size = '5'>Oracle , DBA</font></li>
+		
+	</ul>
+</div>
+
+
+<div id = 'ContactUsDiv'>
+	
+	<ul>
+		<li><font color = 'blue'  size = '5'>CMC, 2nd floor</font></li>
+		<br/>
+		<li><font color = 'blue'  size = '5'>Main Road</font></li>
+		<br/>
+		<li><font color = 'blue'  size = '5'>Visakhapatnam</font></li>
+		
+	</ul>
+</div>
+
+
+</body>
+</html>
