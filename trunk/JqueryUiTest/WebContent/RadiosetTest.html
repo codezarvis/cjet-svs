@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Radio Set</title>
+<link href="css/flick/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+<link href="Style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.js"></script>
+<script>
+	$(function() {
+		$("#radioset").buttonset();
+	});
+</script>
+</head>
+<body>
+	<form style="margin-top: 1em;">
+		<div id="radioset">
+			<input type="radio" id="radio1" name="radio"><label
+				for="radio1">Choice 1</label> <input type="radio" id="radio2"
+				name="radio" checked="checked"><label for="radio2">Choice
+				2</label> <input type="radio" id="radio3" name="radio"><label
+				for="radio3">Choice 3</label>
+		</div>
+	</form>
+</body>
+</html>

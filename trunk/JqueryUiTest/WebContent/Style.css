@@ -1,0 +1,328 @@
+body {
+	font: 62.5% "Trebuchet MS", sans-serif;
+	margin: 50px;
+}
+
+.demoHeaders {
+	margin-top: 2em;
+}
+
+#dialog-link {
+	padding: .4em 1em .4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+#dialog-link span.ui-icon {
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+
+#icons {
+	margin: 0;
+	padding: 0;
+}
+
+#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+
+#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+
+.fakewindowcontain .ui-widget-overlay {
+	position: absolute;
+}
+
+#Home {
+	position: relative;
+	margin-left: 50px;
+	background-color: solidwhite;
+	border: 2px white;
+	border-radius: 10px;
+	height: 60px;
+	width: 1100px;
+	margin-left: 100px;
+}
+
+#myBody {
+	background-color: white;
+}
+
+#Accordian {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	width: 100px;
+	margin-left: 100px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+	top: -60px
+}
+
+#Accordian:HOVER {
+	font-style: inherit;
+	font-size: 16px;
+	color: white;
+}
+
+#Autocomplete {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -120px;
+	width: 100px;
+	margin-left: 201px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#Autocomplete:HOVER {
+	font-style: inherit;
+	font-size: 16px;
+}
+
+#Button {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -180px;
+	width: 100px;
+	margin-left: 302px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#Button:HOVER {
+	font-style: inherit;
+	font-size: 20px;
+}
+
+#RadioButton {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -240px;
+	width: 100px;
+	margin-left: 403px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#RadioButton:HOVER {
+	font-style: inherit;
+	font-size: 17px;
+}
+
+#DatePicker {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -300px;
+	width: 100px;
+	margin-left: 504px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#DatePicker:HOVER {
+	font-style: inherit;
+	font-size: 17px;
+}
+
+#Tabs {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -360px;
+	width: 100px;
+	margin-left: 605px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#Tabs:hover {
+	font-style: inherit;
+	font-size: 17px;
+}
+
+#Slider {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -600px;
+	width: 100px;
+	margin-left: 706px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#Slider:hover {
+	font-style: inherit;
+	font-size: 17px;
+}
+
+#Progress {
+	position: relative;
+	background-color: #7FAAFF;
+	border-right: 2px solidwhite;
+	top: -660px;
+	width: 100px;
+	margin-left: 807px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#Progress:hover {
+	font-style: inherit;
+	font-size: 17px;
+}
+
+#Dialog {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -420px;
+	width: 100px;
+	margin-left: 908px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#Dialog:hover {
+	font-style: inherit;
+	font-size: 18px;
+}
+
+#FrameIcons {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -480px;
+	width: 100px;
+	margin-left: 1009px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#FrameIcons:hover {
+	font-style: inherit;
+	font-size: 17px;
+}
+
+#HighlightMsg {
+	position: relative;
+	background-color: #7FAAFF;
+	border: 2px white;
+	top: -540px;
+	width: 150px;
+	margin-left: 1110px;
+	color: white;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 55px;
+}
+
+#HighlightMsg:hover {
+	font-style: inherit;
+	font-size: 17px;
+}
+
+#Html {
+	position: relative;
+	background-image:url('html1.jpg');
+	top: -600px;
+	font-size: 20px;
+	margin-left: 100px;
+	border: 2px white;
+	height: 240px;
+	width: 215px;
+	color: black;
+}
+#html1{
+	position: relative;
+	top: -880px;
+	background-image:url('html2.jpg');
+	margin-left: 380px;
+	border: 2px white;
+	height: 350px;
+	width: 350px;
+	color: black;
+}
+
+#CSS {
+	position: relative;
+	background-image:url('css1.png');
+	top: -1300px;
+	width: 500px;
+	margin-left: 800px;
+	border: 2px black;
+	height: 440px;
+	color: black;
+	font-size: 20px;
+}
+
+#Javascript {
+	position: relative;
+	background-image: url('javascript-logo.jpg');
+	width: 440px;
+	margin-left: 100px;
+	border: 2px white;
+	height: 160px;
+	color: black;
+	font-size: 20px;
+	top: -1200px;
+}
+
+#Jquery {
+	position: relative;
+	background-image:url('jquery_logo1.png');
+	top: -1400px;
+	width: 735px;
+	margin-left: 560px;
+	border: 2px white;
+	height: 180px;
+	color: black;
+	font-size: 20px;
+}
