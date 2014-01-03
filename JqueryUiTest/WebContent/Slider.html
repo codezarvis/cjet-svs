@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Slider</title>
+<link href="css/flick/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.js"></script>
+<script>
+	$(function() {
+		$("#slider").slider({
+			range : true,
+			values : [ 17, 67 ]
+		});
+	});
+</script>
+</head>
+<body>
+	<h2 class="demoHeaders">Slider</h2>
+	<div id="slider"></div>
+</body>
+</html>
