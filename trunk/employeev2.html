@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Insert title here</title>
+
+<link rel="stylesheet" type="text/css" href="employee.css" />
+<script type="text/javascript" src="employee.js"></script>
+</head>
+<body>
+	<h1 align="center">Employee Data Entry</h1>
+	<hr />
+	<br />
+
+
+	<table align="center" cellpadding="5" cellspacing="2">
+
+		<tr>
+			<td>Enter Employee Id</td>
+			<td><input type="text" id="employeeId" /></td>
+
+		</tr>
+
+		<tr>
+			<td>Enter Employee Name</td>
+			<td><input type="text" id="employeeName" /></td>
+
+		</tr>
+
+		<tr>
+			<td>Enter Employee Salary</td>
+			<td><input type="text" id="employeeSalary" /></td>
+
+		</tr>
+
+		<tr>
+			<td><input type="button" value="Submit"
+				onclick="getEmployeeData();" /></td>
+			<td><input type="button" value="ReSet" onclick="doReset();" /></td>
+
+		</tr>
+
+	</table>
+
+
+	<br />
+	<br />
+
+
+
+
+	<br />
+
+
+	<div id="res">
+		<p align="center">Employee Pay Slip</p>
+		<hr />
+		<table align="center" border="1" cellspacing="2" cellpadding="15">
+			<tr>
+				<td>Employee Id</td>
+				<td id="resEmployeeId"></td>
+				<td>Employee Name</td>
+				<td id="resEmployeeName"></td>
+				<td>Employee Salary</td>
+				<td id="resEmployeeSalary"></td>
+			</tr>
+			<tr>
+				<td colspan="6" align="center">Employee Salary Details</td>
+			</tr>
+			<tr>
+				<td>DA</td>
+				<td align="center" id="resDa"></td>
+				<td>TA</td>
+				<td align="center" id="resTa"></td>
+				<td>HRA</td>
+				<td align="center" id="resHra"></td>
+			</tr>
+			<tr>
+				<td>PF</td>
+				<td align="center" id="resPf"></td>
+				<td colspan="3">NET SALARY</td>
+				<td align="center" id="resNetSalary"></td>
+			</tr>
+
+			<tr>
+				<td colspan="6" align="center" id="resStatus"></td>
+			</tr>
+
+		</table>
+
+	</div>
+
+</body>
+</html>
