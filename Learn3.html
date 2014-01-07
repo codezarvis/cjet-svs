@@ -1,0 +1,72 @@
+
+<html>
+    <head>
+        <title>Transitions Effects</title>
+        <style>
+            body{
+                background-color: white;
+            }
+            h1{
+                text-align: center;
+                color: red;
+            }
+            h4{
+                text-align: center;
+                line-height: 100px;
+                color:white;
+            }
+            #Transition1{
+                position: absolute;
+                height: 150px;
+                left:300px;
+                top:75px;
+                width:150px;
+                background-color:#8ec63f; 
+                border-radius: 10px;
+            }
+            #Transition1:hover{
+                background-color: #F7941D;
+                border-radius: 50%;
+            }
+            #Transition2{
+                position: absolute;
+                height: 150px;
+                left:600px;
+                top:75px;
+                width:150px;
+                background-color:#8ec63f; 
+                border-radius: 10px;
+                transition-property: background,border-radius;
+                transition-duration: 1s;
+                transition-timing-function: linear;
+
+            }
+            #Transition2:hover{
+                background-color: #F7941D;
+                border-radius: 50%; 
+            }
+            #Transition3{
+                position:absolute;
+                height: 150px;
+                width:150px;
+                background-color: #8ec63f;
+                left:900px;
+                top:75px;
+                border-radius: 10px;
+                transition: background 1s linear,border-radius 1s ease-in-out;
+            }
+
+            #Transition3:hover{
+                background-color: #F7941D;
+                border-radius: 100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1> Transition With Their Effects</h1><br>
+        <div id="Transition1"> <h4> BOX </h4></div>
+        <div id="Transition2"><h4> BOX </h4></div>
+        <div id="Transition3"><h4> BOX </h4></div>
+    </body>
+</html>
