@@ -1,4 +1,3 @@
-
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
 	{
 	display: block
@@ -10,10 +9,166 @@ audio,canvas,video {
 	*zoom: 1;
 }
 
-audio:not ([controls] ) {
-	display: none;
-}
+audio
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:not
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(
+[
+controls
+]
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+)
+{
+display
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+}
 html {
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -190,10 +345,164 @@ img {
 	vertical-align: middle
 }
 
-svg:not (:root ){
-	overflow: hidden
-}
+svg
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:not
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(
+:root
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+){
+overflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+hidden
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 figure {
 	margin: 0
 }
@@ -395,7 +704,7 @@ label.error {
 	background: -moz-linear-gradient(top, #f6f6f6 0%, #efefef 100%);
 	/* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6),
-		color-stop(100%, #efefef) ); /* Chrome,Safari4+ */
+		color-stop(100%, #efefef)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #f6f6f6 0%, #efefef 100%);
 	/* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #f6f6f6 0%, #efefef 100%);
@@ -405,7 +714,7 @@ label.error {
 	background: linear-gradient(to bottom, #f6f6f6 0%, #efefef 100%);
 	/* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#f6f6f6',
-		endColorstr='#efefef', GradientType=0 ); /* IE6-9 */
+		endColorstr='#efefef', GradientType=0); /* IE6-9 */
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	-o-border-radius: 2px;
@@ -668,7 +977,7 @@ a img {
 a img:hover {
 	*zoom: 1;
 	opacity: 0.7;
-	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=  70 );
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=  70);
 	filter: alpha(opacity =   70);
 }
 
@@ -907,7 +1216,7 @@ html[xmlns] .slides {
 	height: 100%;
 	*zoom: 1;
 	opacity: 0;
-	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=  0 );
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=  0);
 	filter: alpha(opacity =   0);
 }
 
@@ -1473,6 +1782,12 @@ ul.page-numbers {
 	h2,h3 {
 		page-break-after: avoid
 	}
+}
+
+#hr {
+	position: absolute;
+	left: 120px;
+	width: 1000px;
 }
 
 /* -------------------------------------------------------------
